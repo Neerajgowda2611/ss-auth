@@ -1,0 +1,42 @@
+class Settings:
+    CASDOOR_CONFIG = {
+        "endpoint": "http://22.0.0.179:8111",
+        "client_id": "931cbff5298aef218fd0",
+        "client_secret": "31f07306354c22c3a4782e1e5057e0545e54abc8",
+        "certificate": '''-----BEGIN CERTIFICATE-----
+MIIE2TCCAsGgAwIBAgIDAeJAMA0GCSqGSIb3DQEBCwUAMCYxDjAMBgNVBAoTBWFk
+bWluMRQwEgYDVQQDDAtjZXJ0XzdtOHB1cjAeFw0yNDEwMTgwNjU5MjFaFw00NDEw
+MTgwNjU5MjFaMCYxDjAMBgNVBAoTBWFkbWluMRQwEgYDVQQDDAtjZXJ0XzdtOHB1
+cjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAKWBFV4JrwlrV1u130+q
+mOwL/RcVXcvfztCHVJK+p+ZKoXro9p6sG8TWGU6VuLTaNF8rFLxMzf0vTFYWFZ8d
+Plb4AEfZ/4kuElQMvZ90qE9UIHglKIs9haS4WsNDaNkIPu9nQaAaSN4O+dr5r1AK
+hdxW7K0SC5irhBOe2hg2+mZUKeSBANLpnd6X8nI5R5XjjJ54Bbte2TAtVsRaQYHp
+G57WBxnikBlp67ociJxSFdOvyyHqRa6kB2xXSCRBb6Dp8AKX1Ka4VWHz7VuNpAzM
+UJFndcffdg6Ok+WQMJhDHg+JL9cghrmFVkhjnYFiIwCy9ib4ILlh9XnCsBSKSz1m
+PMAcMDikIE+R6SZX6PWZcw7u8H4ImEenvr2aditGdQAtuX8Itug0Al+70BTWfhwC
+QkMVnMTis+xwixTdC3eNhaDW4XSBEiy3x+xsiztpalCWZx+4Tzh+wcnxEUaVWVDE
+cW2MaKOpgT6FsoWCsy4VEs3kenB3ITgmWZwgLkSme0Gr1Ss4L+F9J8TcaQ91FbTm
+U+jEmlmfQ/ndzPuAbKNQBA9GG/MAEWI2Q9GBhiUivRS2muLJRdIQFnwhUtdb0Q1s
+mouAu5XQPzvosuZwJQlWL5ILnumS69i/INdFBTbJYYf4W9g8epHfUq3otv4/hT0w
+mIXknDKHTxvJAxmYihO6J+7BAgMBAAGjEDAOMAwGA1UdEwEB/wQCMAAwDQYJKoZI
+hvcNAQELBQADggIBAI00pkJAPfylx4+An8xqQDpDGC7PB+CLldwk5jlxCF1KKuE9
+zxcQPuBV/lUmMSDyIAV1DEAcdskuPijLE/YkMMXToNPUsPRuvvj73afvMPQzNq+C
+paIZp55l15+VNdblgJO5ukMmNv+7cYRyQ951HXE5WPKWlonLfOas//6KTQ3aSv4p
+wehjrb6sgj30nRIXV5vznVPPaJfRptddcqRaNgaMVKdmcgKdwKSyLbSsqhIv59/T
+1K8GN1ovk6GfmP6CwYlDOqCZk/0l1YBMApytXOzV9Q6xKl6VZSJcRNLH2OTeQpnj
+eT+yOQICFhkmIDG8/+yi5GkpBKIgxjSkbTDLFabqZZ6pzdX7ZkRwcRY+pqbvrnpa
+rhFzZCU3NPMOFxbdUEBmhQpndsmDUP/Y9YKI0z78wbo4EIqL6PITPKUfzRGTovQR
+KDuiunwXrpnlT5qiF3wFH/MN7hBDRvN5e7YjtR+g2RFiDtt1riAWR6E/CjURrwIE
+NCNGhFvfQRHQQEMQPKqgejshdVe/le55gsWsKf4accN3os5CrqF2RpU/K/jSITWx
+LtMiHm2NQUSntiUSWSAJ04emgmW6xY71taXkN/C4pR/9YNpgjcSK/7mqfo0Z80oA
+IKy+EB/DvFbIPP5wT+SNrH1kiuX/K/iBodjF2aWyOm/WFrZyqoUK1Mtkmc1H
+-----END CERTIFICATE-----''',
+        "org_name": "greet",
+        "application_name": "auth-test"
+    }
+    
+    CORS_ORIGINS = [
+        "http://localhost:3000",
+    ]
+
+settings = Settings()
